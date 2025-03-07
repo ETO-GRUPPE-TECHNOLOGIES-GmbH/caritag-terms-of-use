@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // const descriptionElement = document.getElementById("terms-description");
     const contentElement = document.getElementById("terms-content");
 
-    const apiUrl = "https://consent-development.farmunited.com/api/version/v2/latestVersion?projectId=3991"; // Replace with actual API URL
+    const apiUrl = "https://consent.farmunited.com/api/version/v2/latestVersion?projectId=2"; // Replace with actual API URL
     const urlParams = new URLSearchParams(window.location.search);
     const selectedLang = urlParams.get("lang") || "EN"; // Default to English if no lang param
     fetch(apiUrl)
